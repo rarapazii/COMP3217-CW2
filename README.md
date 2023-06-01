@@ -83,7 +83,8 @@ Next, choosing proper evaluating metrics is necessary. Towards such classificati
 
 In this section, the following table shows the performance of each classifier.
 
-<img src="part_a_1.png" alt="part_a_1" style="zoom:80%;" />
+
+<p align="center"><img src="part_a_1.png" alt="part_a_1" style="zoom:80%;" /></p>
 
 We can see SVM achieves best performance in accuracy, precision score and f1 score. Its highest accuracy is **95.75\%**.  And its best hyper-parameter combination is
 
@@ -92,7 +93,8 @@ SVM best parameters are:
  {'C': 1000, 'kernel': 'rbf'}
 ```
 
-<img src="part_a_2.png" alt="part_a_2" style="zoom:80%;" />
+<p align="center"><img src="part_a_2.png" alt="part_a_2" style="zoom:80%;" /></p>
+
 
 From the ROC curve plot, we can also see that SVM outperforms than other two methods. Therefore, I use it for final prediction and compute the labels for 100 system traces without labels. The results are:
 
@@ -108,7 +110,7 @@ From the ROC curve plot, we can also see that SVM outperforms than other two met
 
 For this section, the following table shows the results of multiple class classification for different algorithms.
 
-<img src="part_b_1.png" alt="part_b_1" style="zoom:80%;" />
+<p align="center"><img src="part_b_1.png" alt="part_b_1" style="zoom:80%;" /></p>
 
 We can see decision tree achieves best performance in all metrics. Its highest accuracy is **89.5\%**. And its best hyper-parameter combination is
 
